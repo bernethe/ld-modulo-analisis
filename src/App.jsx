@@ -6,7 +6,7 @@ import HomePage from './Components/Pages/HomePage';
 import PanelPage from './Components/Pages/PanelPage';
 
 const App = () => {
-    return <Router>
+    return <Router basename='/ld-modulo-analisis'>
         <Routes>
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/panel" element={<PanelPage />} />
