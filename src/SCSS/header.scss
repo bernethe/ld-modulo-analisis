@@ -1,0 +1,110 @@
+$opener: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'><path fill='%23fff' d='M5,8a1,1,0,0,1-.7-.29l-4-4a1,1,0,0,1,0-1.41,1,1,0,0,1,1.39,0L5,5.59,8.3,2.41A1,1,0,0,1,9.69,3.85l-4,3.86A1,1,0,0,1,5,8'/></svg>");
+
+@import './globals';
+
+header.main-header {
+    color: white;
+    background-color: $mainColor;
+    font-weight: bold;
+    font-size: 14px;
+
+    & .row {
+        & [class*="col-"] {
+            border-left: 1px solid white;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            display: flex;
+            align-items: center;
+            // justify-content: center;
+
+            &:first-child {
+                border-left: none;
+            }
+        }
+    }
+
+    & nav.main-header-sub-menu {
+        position: relative;
+    
+        & > div {
+            &::after {
+                content: '';
+                display: inline-block;
+                vertical-align: middle;
+                width: 1em;
+                height: 1em;
+                margin-left: 1em;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: contain;
+                background-image: $opener;
+            }
+        }
+    
+    
+        & ul {
+            position: relative;
+            z-index: 100;
+            color: #fff;
+            // background-color: #fff;
+            white-space: nowrap;
+            left: 0;
+            top: 0;
+            // border: 1px solid #fff;
+            // box-shadow: 3px 3px 6px 3px rgba(0,0,0,.2);
+    
+            &, & li, & li a {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: inline-block;
+            }
+            & li {
+                & a {
+                    @include xlink {
+                        text-decoration: none;
+                        padding: 1em;
+                        color: #fff;
+                    }
+                }
+                & > ul {
+                    position: absolute;
+                    left: 0;
+                    top: 3rem;
+                    background: rgba(255,255,255,.75);
+                    backdrop-filter: blur(5px);
+                    display: none;
+
+                    & a {
+                        @include xlink {
+                            color: #192A59;
+                        }
+                    }
+
+                    & li {
+                        display: block;
+                    }
+                }
+            }
+        }
+        &:hover {
+            & > ul {
+                display: block;
+    
+                & li {
+                    &:hover {
+                        & ul {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    
+        & .has-sub-menu {
+            background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='6' height='10' viewBox='0 0 6 10'><path d='M6,5a1,1,0,0,1-.29.71l-4,4a1,1,0,0,1-1.42,0,1,1,0,0,1,0-1.38L3.6,5,.42,1.71A1,1,0,0,1,.44.29a1,1,0,0,1,1.42,0l3.86,4A1,1,0,0,1,6,' fill='%234f4f4f' /></svg>");
+            background-repeat: no-repeat;
+            background-position: right .5em center;
+        }
+    }
+}

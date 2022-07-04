@@ -1,0 +1,64 @@
+{
+	"preventas": [
+		{
+			"id": 17030,
+			"status": 0,
+			"sucursal": "Liberia 1",
+			"cliente": "1-0942-0999/GILBERTO ARIAS ROJAS",
+			"monto": 109900,
+			"plazo": 24,
+			"prima": 76962,
+			"cuota": 518235,
+			"vendedor": "Edward",
+			"tipo": "Crédito Regular"
+		},
+		{
+			"id": 34024,
+			"status": 0,
+			"sucursal": "San Marcos",
+			"cliente": "6-0110-0224/JOSE ANGEL GODOY CUBERO",
+			"monto": 109900,
+			"plazo": 24,
+			"prima": 80110,
+			"cuota": 32488.45,
+			"vendedor": "Manuel Eduardo",
+			"tipo": "Crédito Regular"
+		},
+		{
+			"id": 34023,
+			"status": 1,
+			"sucursal": "Liberia 1",
+			"cliente": "6-0146-0887/TITO DE LA ROSA SIBAJA",
+			"monto": 469990,
+			"plazo": 12,
+			"prima": 80110,
+			"cuota": 23730.08,
+			"vendedor": "Álvaro",
+			"tipo": "Crédito Regular"
+		},
+		{
+			"id": 32101,
+			"status": 1,
+			"sucursal": "Alajuela 1",
+			"cliente": "0-0000-0000/PRUEBA NOMBRE PRUEBA NOMBRE",
+			"monto": 384810,
+			"plazo": 6,
+			"prima": 80110,
+			"cuota": 5822.02,
+			"vendedor": "Adolfo",
+			"tipo": "Crédito Regular"
+		},
+		{
+			"id": 28750,
+			"status": 1,
+			"sucursal": "Alajuela 1",
+			"cliente": "0-0000-0000/PRUEBA NOMBRE PRUEBA NOMBRE",
+			"monto": 384810,
+			"plazo": 6,
+			"prima": 80110,
+			"cuota": 5822.02,
+			"vendedor": "Adolfo",
+			"tipo": "Crédito Regular"
+		}
+	]
+}

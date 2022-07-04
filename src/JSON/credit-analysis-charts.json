@@ -1,0 +1,86 @@
+{
+	"por_sucursal": [
+		[
+			{
+				"name": "36 - Liberia",
+				"value": 2
+			},
+			{
+				"name": "5 - San Carlos",
+				"value": 1
+			}
+		],
+		[
+			{
+				"name": "21 - Guápiles",
+				"value": 2
+			},
+			{
+				"name": "15 - Desamparados",
+				"value": 3
+			}
+		],
+		[
+			{
+				"name": "2 - Alajuela",
+				"value": 4
+			},
+			{
+				"name": "30 - Perez Zeledón",
+				"value": 3
+			}
+		],
+		[
+			{
+				"name": "33 - Cartago",
+				"value": 3
+			},
+			{
+				"name": "21 - San Ramón",
+				"value": 1
+			}
+		]
+	],
+	"por_usuario": [
+		[
+			{
+				"name": "2 - Logical",
+				"value": 4
+			},
+			{
+				"name": "30 - Admin",
+				"value": 3
+			}
+		],
+		[
+			{
+				"name": "33 - Steven Ugalde",
+				"value": 3
+			},
+			{
+				"name": "21 - Juan José Vindas",
+				"value": 1
+			}
+		],
+		[
+			{
+				"name": "36 - Harold Soto",
+				"value": 2
+			},
+			{
+				"name": "5 - Roller Zúñiga",
+				"value": 1
+			}
+		],
+		[
+			{
+				"name": "21 - Roy Méndez",
+				"value": 2
+			},
+			{
+				"name": "15 - Jorge Hernandez",
+				"value": 3
+			}
+		]
+	]
+}

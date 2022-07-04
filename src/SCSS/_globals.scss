@@ -1,0 +1,11 @@
+$mainColor: #577ADE;
+
+@mixin xlink {
+	&, &:link, &:active, &:hover, &:visited {@content;}
+}
+@mixin placeholder {
+	&::-webkit-input-placeholder {@content;}
+	&:-moz-placeholder           {@content;}
+	&::-moz-placeholder          {@content;}
+	&:-ms-input-placeholder      {@content;}
+}

@@ -1,0 +1,45 @@
+@import './globals';
+
+.tab-btns {
+	margin-top: 5em;
+
+	&.tab-btns-nomargintop {
+		margin-top: 0;
+	}
+
+	& ul {
+		margin: 0;
+		& li {
+			& button {
+				position: relative;
+				appearance: none;
+				background: transparent;
+				border: none;
+				font-weight: bold;
+				padding: 0 2em .5em;
+				transition: color .25s ease-in-out;
+
+				&::after {
+					content: '';
+					position: absolute;
+					display: block;
+					width: 100%;
+					height: 0;
+					left: 0;
+					bottom: 0;
+					background: $mainColor;
+					transition: height .25s ease-in-out;
+				}
+			}
+			&.active {
+				& button {
+					color: $mainColor;
+
+					&::after {
+						height: 5px;
+					}
+				}
+			}
+		}
+	}
+}
