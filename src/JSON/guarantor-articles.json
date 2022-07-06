@@ -1,0 +1,60 @@
+{
+	"data": [
+		{
+			"bill": "F-1-4-3-1-35774",
+			"date": "2022-03-24",
+			"name": "COC ELEC WHIRLPOL WFE301LVQ” VITR 4Q",
+			"quantity": "1",
+			"amount": "384,453.00",
+			"vendor": "Adolfo Salazar Peña"
+		},
+		{
+			"bill": "F-1-4-3-1-35773",
+			"date": "2022-03-24",
+			"name": "REFRI AUTO REFRIGIDAIRE FRT163AG 16CF SILV",
+			"quantity": "1",
+			"amount": "245,983.00",
+			"vendor": "Adolfo Salazar Peña"
+		},
+		{
+			"bill": "F-1-4-3-1-35772",
+			"date": "2022-03-24",
+			"name": "COC ELEC WHIRLPOL WFE301LVQ” VITR 4Q",
+			"quantity": "1",
+			"amount": "328,912.00",
+			"vendor": "Adolfo Salazar Peña"
+		},
+		{
+			"bill": "F-1-4-3-1-35771",
+			"date": "2022-03-24",
+			"name": "REFRI AUTO REFRIGIDAIRE FRT163AG 16CF SILV",
+			"quantity": "1",
+			"amount": "308,098.00",
+			"vendor": "Adolfo Salazar Peña"
+		},
+		{
+			"bill": "F-1-4-3-1-35770",
+			"date": "2022-03-24",
+			"name": "COC ELEC WHIRLPOL WFE301LVQ” VITR 4Q",
+			"quantity": "1",
+			"amount": "734,912.00",
+			"vendor": "Adolfo Salazar Peña"
+		},
+		{
+			"bill": "F-1-4-3-1-35769",
+			"date": "2022-03-24",
+			"name": "REFRI AUTO REFRIGIDAIRE FRT163AG 16CF SILV",
+			"quantity": "1",
+			"amount": "308,098.00",
+			"vendor": "Adolfo Salazar Peña"
+		},
+		{
+			"bill": "F-1-4-3-1-35768",
+			"date": "2022-03-24",
+			"name": "COC ELEC WHIRLPOL WFE301LVQ” VITR 4Q",
+			"quantity": "1",
+			"amount": "734,912.00",
+			"vendor": "Adolfo Salazar Peña"
+		}
+	]
+}
