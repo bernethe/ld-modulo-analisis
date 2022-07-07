@@ -5,6 +5,8 @@ import ModalMultiTab from '../../UI/ModalMultiTab/ModalMultiTab';
 import ModalGuarantorMultiTab01 from '../ModalGuarantorMultiTab/ModalGuarantorMultiTab01';
 import ModalGuarantorMultiTab02 from '../ModalGuarantorMultiTab/ModalGuarantorMultiTab02';
 import ModalGuarantorMultiTab03 from '../ModalGuarantorMultiTab/ModalGuarantorMultiTab03';
+import ModalGuarantorMultiTab04 from '../ModalGuarantorMultiTab/ModalGuarantorMultiTab04';
+import ModalGuarantorMultiTab05 from '../ModalGuarantorMultiTab/ModalGuarantorMultiTab05';
 
 const CreditAnalysisDetailTabs02 = ({userID}) => {
 
@@ -23,11 +25,11 @@ const CreditAnalysisDetailTabs02 = ({userID}) => {
 		},
 		{
 			name: 'Datos Adicionales',
-			content: <>Tab de Datos Adicionales</>
+			content: <ModalGuarantorMultiTab04 />
 		},
 		{
 			name: 'Comentarios',
-			content: <>Tab de Comentarios</>
+			content: <ModalGuarantorMultiTab05 />
 		},
 	];
 

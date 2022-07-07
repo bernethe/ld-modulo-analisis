@@ -5,7 +5,7 @@ const ModalGuarantorMultiTab03 = () => {
 
 	const _data = MyJson.data;
 
-	return <div>
+	return <>
 		<h5>Artículos</h5>
 		<table className='table table-analysis'>
 			<thead>
@@ -31,7 +31,7 @@ const ModalGuarantorMultiTab03 = () => {
 				})}
 			</tbody>
 		</table>
-	</div>
+	</>
 }
 
 export default ModalGuarantorMultiTab03
