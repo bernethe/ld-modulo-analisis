@@ -5,6 +5,7 @@ import '../../../SCSS/creditAnalysisDetailTabs.scss';
 
 const ModalMultiTab = ({title, setClose, tabData}) => {
 
+	const [currentDropDown, setCurrentDropDown] = useState(0);
 	const [currentTab, setCurrentTab] = useState(0);
 
 	useEffect(() => {
@@ -22,26 +23,35 @@ const ModalMultiTab = ({title, setClose, tabData}) => {
 					<FaTimes className='text-muted' />
 				</button>
 			</div>
-			<div className='tab-btns tab-btns-nomargintop shadow-sm'>
-				<div className='container my-4'>
-					<div className='row'>
-						<div className='col text-center'>
-							<ul className='list-inline'>
-							{
-								tabData.map((tab, index) => {
-									return <li className={`list-inline-item ${currentTab === index ? 'active' : ''}`} key={index}>
-										<button onClick={() => setCurrentTab(index)}>{tab.name}</button>
-									</li>
-								})
-							}
-							</ul>
+			<div>
+				<label style={ { maxWidth: '500px' } }>
+					<select className='form-select' value={ currentDropDown } onChange={ (e) => {setCurrentTab(0);setCurrentDropDown(e.target.selectedIndex)} } >{
+						tabData.map((tab, index) => <option key={index} value={index}>{tab.name}</option>)
+					}</select>
+				</label>
+			</div>
+			{
+				tabData[currentDropDown].tabs.length > 1 && <div className='tab-btns tab-btns-nomargintop shadow-sm'>
+					<div className='container my-4'>
+						<div className='row'>
+							<div className='col text-center'>
+								<ul className='list-inline'>
+								{
+									tabData[currentDropDown].tabs.map((tab, index) => {
+										return <li className={`list-inline-item ${currentTab === index ? 'active' : ''}`} key={index}>
+											<button onClick={() => setCurrentTab(index)}>{tab.name}</button>
+										</li>
+									})
+								}
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			}
 			<div className="modal-body">
 				<div className='container'>
-					{ tabData[currentTab].content }
+					{ tabData[currentDropDown].tabs[currentTab].content }
 				</div>
 			</div>
 		</div>

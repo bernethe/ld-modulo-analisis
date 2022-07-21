@@ -2,36 +2,9 @@ import React, {useState} from 'react';
 import {FaPlus} from 'react-icons/fa';
 import ModalAddComment from '../../UI/ModalAddComment';
 import ModalMultiTab from '../../UI/ModalMultiTab/ModalMultiTab';
-import ModalGuarantorMultiTab01 from '../ModalGuarantorMultiTab/ModalGuarantorMultiTab01';
-import ModalGuarantorMultiTab02 from '../ModalGuarantorMultiTab/ModalGuarantorMultiTab02';
-import ModalGuarantorMultiTab03 from '../ModalGuarantorMultiTab/ModalGuarantorMultiTab03';
-import ModalGuarantorMultiTab04 from '../ModalGuarantorMultiTab/ModalGuarantorMultiTab04';
-import ModalGuarantorMultiTab05 from '../ModalGuarantorMultiTab/ModalGuarantorMultiTab05';
+import ModalMultiTapData from './ModalMultiTapData';
 
 const CreditAnalysisDetailTabs02 = ({userID}) => {
-
-	const guarantorData = [
-		{
-			name: 'Datos',
-			content: <ModalGuarantorMultiTab01 />
-		},
-		{
-			name: 'Tel. y Direc',
-			content: <ModalGuarantorMultiTab02 />
-		},
-		{
-			name: 'Artículos',
-			content: <ModalGuarantorMultiTab03 />
-		},
-		{
-			name: 'Datos Adicionales',
-			content: <ModalGuarantorMultiTab04 />
-		},
-		{
-			name: 'Comentarios',
-			content: <ModalGuarantorMultiTab05 />
-		},
-	];
 
 	const [modalNewComment, setModalNewComment] = useState(false);
 	const [modalGuarantor, setModalGuarantor] = useState(false);
@@ -237,7 +210,7 @@ const CreditAnalysisDetailTabs02 = ({userID}) => {
 			modalNewComment && <ModalAddComment setClose={ () => setModalNewComment(false) } comments={comentadioFiadores} setComments={setComentadioFiadores} />
 		}
 		{
-			modalGuarantor && <ModalMultiTab title='Detalle de fiador' setClose={ () => setModalGuarantor(false) } tabData={ guarantorData } />
+			modalGuarantor && <ModalMultiTab title='Detalle de fiador' setClose={ () => setModalGuarantor(false) } tabData={ ModalMultiTapData } />
 		}
 	</>
 }

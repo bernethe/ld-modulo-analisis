@@ -1,7 +1,7 @@
 import React from 'react'
 import MyJson from '../../../JSON/guarantor-articles.json'
 
-const ModalGuarantorMultiTab03 = () => {
+const ModalGuarantorMultiTab0103 = () => {
 
 	const _data = MyJson.data;
 
@@ -34,4 +34,4 @@ const ModalGuarantorMultiTab03 = () => {
 	</>
 }
 
-export default ModalGuarantorMultiTab03
+export default ModalGuarantorMultiTab0103

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ModalGuarantorMultiTab01 = () => {
+const ModalGuarantorMultiTab0101 = () => {
 	return <>
 		<div className='row'>
 			<div className='col-sm-5'>
@@ -50,4 +50,4 @@ const ModalGuarantorMultiTab01 = () => {
 	</>
 }
 
-export default ModalGuarantorMultiTab01
+export default ModalGuarantorMultiTab0101

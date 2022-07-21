@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import '../../SCSS/creditAnalysisDetailTabs.scss';
 import CreditAnalysisDetailTabs01 from './CreditAnalysisDetailTabs/CreditAnalysisDetailTabs01';
 import CreditAnalysisDetailTabs02 from './CreditAnalysisDetailTabs/CreditAnalysisDetailTabs02';
+import CreditAnalysisDetailTabs03 from './CreditAnalysisDetailTabs/CreditAnalysisDetailTabs03';
 
 const CreditAnalysisDetailTabs = ({userID}) => {
 
@@ -15,6 +16,10 @@ const CreditAnalysisDetailTabs = ({userID}) => {
 		{
 			name: 'Detalle de Preventa',
 			content: <CreditAnalysisDetailTabs02 userID={userID} />
+		},
+		{
+			name: 'Datos Cliente',
+			content: <CreditAnalysisDetailTabs03 userID={userID} />
 		},
 		{
 			name: 'Datos Cuenta',

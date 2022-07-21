@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const ModalGuarantorMultiTab02 = () => {
+const ModalGuarantorMultiTab0102 = () => {
 
 	const [addressCheck, setAddressCheck] = useState(2);
 	const [phone, setPhone] = useState(2);
@@ -66,4 +66,4 @@ const ModalGuarantorMultiTab02 = () => {
 	</>
 }
 
-export default ModalGuarantorMultiTab02
+export default ModalGuarantorMultiTab0102

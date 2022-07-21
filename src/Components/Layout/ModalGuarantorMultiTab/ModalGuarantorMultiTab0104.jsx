@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ModalGuarantorMultiTab04 = () => {
+const ModalGuarantorMultiTab0104 = () => {
 	return <>
 		<h5>Datos Adicionales</h5>
 		<div className='border rounded p-3'>
@@ -29,4 +29,4 @@ const ModalGuarantorMultiTab04 = () => {
 	</>
 }
 
-export default ModalGuarantorMultiTab04
+export default ModalGuarantorMultiTab0104
