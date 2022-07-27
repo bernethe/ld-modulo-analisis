@@ -1,9 +1,14 @@
 import React from 'react'
+import {FiLink} from 'react-icons/fi'
 
 const CreditAnalysisDetailTabs01 = ({userID}) => {
 	return <>
 		<div className='row'>
-			<div className='col-sm-5'>
+			<div className='col-sm-5 position-relative'>
+				<div className='position-absolute top-0 end-0 me-2 pt-2'>
+					<a href='#/' className='text-decoration-none me-4'><FiLink /> URL.CCSS</a>
+					<a href='#/' className='text-decoration-none'><FiLink /> URL.CREDISERVER</a>
+				</div>
 				<h3>Datos del cliente</h3>
 				<div className='border rounded p-3'>
 					<p><strong>Zona de riesgo:</strong> </p>

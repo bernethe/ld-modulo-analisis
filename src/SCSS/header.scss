@@ -68,12 +68,12 @@ header.main-header {
                     }
                 }
                 & > ul {
+                    display: none;
                     position: absolute;
                     left: 0;
                     top: 3rem;
-                    background: rgba(255,255,255,.75);
-                    backdrop-filter: blur(5px);
-                    display: none;
+                    background: #fff;
+                    box-shadow: 1px 1px 5px 2px rgb(0 0 0 / 15%);
 
                     & a {
                         @include xlink {
