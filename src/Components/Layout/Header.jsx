@@ -20,6 +20,7 @@ const Header = () => {
                                         <li><a href='#/'>Análisis de Crédito</a></li>
                                         <li><a href='#/'>Gestión Análisis</a></li>
                                         <li><a href='#/'>Gestión de Vistas</a></li>
+                                        <li><a href='/cliente'>Cliente</a></li>
                                     </ul>
                                 </li>
                             </ul>
