@@ -42,100 +42,100 @@ const CreditAnalysisDetailTabs02 = ({userID}) => {
 						<thead>
 							<tr>
 								<th>Crédito</th>
-								<th>Días atraso</th>
-								<th>Saldo</th>
+								<th className='text-end'>Días atraso</th>
+								<th className='text-end'>Saldo</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<td>3-19772</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 							<tr>
 								<td>3-19773</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 							<tr>
 								<td>3-19772</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 							<tr>
 								<td>3-19773</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 							<tr>
 								<td>3-19772</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 							<tr>
 								<td>3-19773</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 							<tr>
 								<td>3-19772</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 							<tr>
 								<td>3-19773</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 							<tr>
 								<td>3-19772</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 							<tr>
 								<td>3-19773</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 							<tr>
 								<td>3-19772</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 							<tr>
 								<td>3-19773</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 							<tr>
 								<td>3-19772</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 							<tr>
 								<td>3-19773</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 							<tr>
 								<td>3-19772</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 							<tr>
 								<td>3-19773</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 							<tr>
 								<td>3-19772</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 							<tr>
 								<td>3-19773</td>
-								<td>0</td>
-								<td>544,808.00</td>
+								<td className='text-end'>0</td>
+								<td className='text-end'>544,808.00</td>
 							</tr>
 						</tbody>
 					</table>
@@ -148,25 +148,25 @@ const CreditAnalysisDetailTabs02 = ({userID}) => {
 						<tr>
 							<th>Fecha</th>
 							<th>Nombre</th>
-							<th>Cantidad</th>
-							<th>Monto</th>
-							<th>Garantía M</th>
+							<th className='text-end'>Cantidad</th>
+							<th className='text-end'>Monto</th>
+							<th className='text-end'>Garantía M</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td>0506</td>
 							<td>COC ELEC WHIRLPOL WFE30 4Q</td>
-							<td>1.00</td>
-							<td>349,763.00</td>
-							<td>86,967.06</td>
+							<td className='text-end'>1.00</td>
+							<td className='text-end'>349,763.00</td>
+							<td className='text-end'>86,967.06</td>
 						</tr>
 						<tr>
 							<td>2882</td>
 							<td>ABAN MAGGIO 3EN1 18”</td>
-							<td>1.00</td>
-							<td>20,990.00</td>
-							<td>0.00</td>
+							<td className='text-end'>1.00</td>
+							<td className='text-end'>20,990.00</td>
+							<td className='text-end'>0.00</td>
 						</tr>
 					</tbody>
 				</table>

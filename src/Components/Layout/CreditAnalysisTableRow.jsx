@@ -35,10 +35,10 @@ const CreditAnalysisTableRow = ({item, confirmAnalisis}) => {
 		<td><span className={ item.status ? 'text-success' : 'text-danger' }><GoPrimitiveDot /></span> {item.id}</td>
 		<td>{item.sucursal}</td>
 		<td>{item.cliente}</td>
-		<td>{numberThousandsSeparator(item.monto)}</td>
-		<td>{item.plazo}</td>
-		<td>{numberThousandsSeparator(item.prima)}</td>
-		<td>{numberThousandsSeparator(item.cuota)}</td>
+		<td className='text-end'>{numberThousandsSeparator(item.monto)}</td>
+		<td className='text-end'>{item.plazo}</td>
+		<td className='text-end'>{numberThousandsSeparator(item.prima)}</td>
+		<td className='text-end'>{numberThousandsSeparator(item.cuota)}</td>
 		<td>{item.vendedor}</td>
 		<td>{item.tipo}</td>
 		<td className='position-relative'>

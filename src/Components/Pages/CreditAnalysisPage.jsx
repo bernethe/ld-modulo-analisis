@@ -21,6 +21,11 @@ const CreditAnalysisPage = () => {
 					<ChartCarousel chartColor='#DE8B57' chartTitle='Preventas por usuarios' chartData={MyJSONChart.por_usuario} />
 				</div>
 			</div>
+			{/* <div className='row my-4'>
+				<div className='col'>
+					<ChartCarousel chartColor='#06f' chartTitle='Preventas por Categoría' chartData={MyJSONChart.por_usuario} />
+				</div>
+			</div> */}
 		</div>
 		<ShadowHeadline title='Lista de preventa' />
 		<CreditAnalysisTable tableData={MyJSONTable.preventas} />

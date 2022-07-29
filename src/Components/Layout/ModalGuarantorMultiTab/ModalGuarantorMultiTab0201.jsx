@@ -22,33 +22,33 @@ const ModalGuarantorMultiTab0201 = () => {
 					<tbody ref={refTBody}>
 						<tr onClick={ () => changeRow(9, 1) } style={ currentRow === 1 ? {backgroundColor:'#E8ECFA',cursor:'pointer'} : {cursor:'pointer'} }>
 							<td>CUENTAS AL DÍA</td>
-							<td>9.00</td>
-							<td>4,803,056.46</td>
+							<td className='text-end'>9.00</td>
+							<td className='text-end'>4,803,056.46</td>
 						</tr>
 						<tr onClick={ () => changeRow(27, 2) } style={ currentRow === 2 ? {backgroundColor:'#E8ECFA',cursor:'pointer'} : {cursor:'pointer'} }>
 							<td>CUENTAS CANCELADAS</td>
-							<td>27.00</td>
-							<td>3,169,396.57</td>
+							<td className='text-end'>27.00</td>
+							<td className='text-end'>3,169,396.57</td>
 						</tr>
 						<tr onClick={ () => changeRow(0, 3) } style={ currentRow === 3 ? {backgroundColor:'#E8ECFA',cursor:'pointer'} : {cursor:'pointer'} }>
 							<td>CUENTAS ATRASADAS</td>
-							<td>0.00</td>
-							<td>0.00</td>
+							<td className='text-end'>0.00</td>
+							<td className='text-end'>0.00</td>
 						</tr>
 						<tr onClick={ () => changeRow(0, 4) } style={ currentRow === 4 ? {backgroundColor:'#E8ECFA',cursor:'pointer'} : {cursor:'pointer'} }>
 							<td>CUENTAS G LEGAS</td>
-							<td>0.00</td>
-							<td>0.00</td>
+							<td className='text-end'>0.00</td>
+							<td className='text-end'>0.00</td>
 						</tr>
 						<tr onClick={ () => changeRow(0, 5) } style={ currentRow === 5 ? {backgroundColor:'#E8ECFA',cursor:'pointer'} : {cursor:'pointer'} }>
 							<td>CUENTAS INCOBRABLE</td>
-							<td>0.00</td>
-							<td>0.00</td>
+							<td className='text-end'>0.00</td>
+							<td className='text-end'>0.00</td>
 						</tr>
 						<tr onClick={ () => changeRow(6, 6) } style={ currentRow === 6 ? {backgroundColor:'#E8ECFA',cursor:'pointer'} : {cursor:'pointer'} }>
 							<td>CUENTAS ANULADAS</td>
-							<td>6.00</td>
-							<td>966,218.58</td>
+							<td className='text-end'>6.00</td>
+							<td className='text-end'>966,218.58</td>
 						</tr>
 					</tbody>
 				</table>
@@ -61,12 +61,12 @@ const ModalGuarantorMultiTab0201 = () => {
 					<tr>
 						<th>Crédito</th>
 						<th>Fecha</th>
-						<th>Principal</th>
-						<th>Cuota</th>
-						<th>Plazo</th>
-						<th>D Atraso</th>
-						<th>Saldo</th>
-						<th></th>
+						<th className='text-end'>Principal</th>
+						<th className='text-end'>Cuota</th>
+						<th className='text-end'>Plazo</th>
+						<th className='text-end'>D Atraso</th>
+						<th className='text-end'>Saldo</th>
+						<th className='text-center'></th>
 					</tr>
 				</thead>
 				<tbody>
@@ -75,12 +75,12 @@ const ModalGuarantorMultiTab0201 = () => {
 							return <tr key={index}>
 								<td>3-{19772+index}</td>
 								<td>2022-02-16</td>
-								<td>544,808.00</td>
-								<td>544,808.00</td>
-								<td>1.0</td>
-								<td>0.0</td>
-								<td>544,808.00</td>
-								<td>
+								<td className='text-end'>544,808.00</td>
+								<td className='text-end'>544,808.00</td>
+								<td className='text-end'>1.0</td>
+								<td className='text-end'>0.0</td>
+								<td className='text-end'>544,808.00</td>
+								<td className='text-center'>
 									<button
 										className='btn btn-sm'
 										onClick={() => setShowPay(true)}

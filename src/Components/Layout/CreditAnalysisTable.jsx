@@ -52,10 +52,10 @@ const CreditAnalysisTable = ({tableData}) => {
 								<th>Preventa</th>
 								<th>Sucursal</th>
 								<th>Cliente</th>
-								<th>Monto</th>
-								<th>Plazo</th>
-								<th>Prima</th>
-								<th>Cuota</th>
+								<th className='text-end'>Monto</th>
+								<th className='text-end'>Plazo</th>
+								<th className='text-end'>Prima</th>
+								<th className='text-end'>Cuota</th>
 								<th>Vendedor</th>
 								<th>Tipo</th>
 								<th></th>

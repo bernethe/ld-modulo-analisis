@@ -13,8 +13,8 @@ const ModalGuarantorMultiTab0103 = () => {
 					<th>Factura</th>
 					<th>Fecha</th>
 					<th>Nombre</th>
-					<th>Cantidad</th>
-					<th>Monto</th>
+					<th className='text-end'>Cantidad</th>
+					<th className='text-end'>Monto</th>
 					<th>Vendedor</th>
 				</tr>
 			</thead>
@@ -24,8 +24,8 @@ const ModalGuarantorMultiTab0103 = () => {
 						<td>{item.bill}</td>
 						<td>{item.date}</td>
 						<td>{item.name}</td>
-						<td>{item.quantity}</td>
-						<td>{item.amount}</td>
+						<td className='text-end'>{item.quantity}</td>
+						<td className='text-end'>{item.amount}</td>
 						<td>{item.vendor}</td>
 					</tr>
 				})}

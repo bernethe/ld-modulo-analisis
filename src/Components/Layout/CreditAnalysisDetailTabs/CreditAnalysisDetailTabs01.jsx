@@ -73,7 +73,7 @@ const CreditAnalysisDetailTabs01 = ({userID}) => {
 							<th>Factura</th>
 							<th>Crédito</th>
 							<th>Fecha</th>
-							<th>Monto</th>
+							<th className='text-end'>Monto</th>
 							<th>Estado</th>
 						</tr>
 					</thead>
@@ -82,7 +82,7 @@ const CreditAnalysisDetailTabs01 = ({userID}) => {
 							<td>CONT-45-2-840</td>
 							<td></td>
 							<td>2015-09-26</td>
-							<td>20,700.00</td>
+							<td className='text-end'>20,700.00</td>
 							<td>Cancelado</td>
 						</tr>
 					</tbody>

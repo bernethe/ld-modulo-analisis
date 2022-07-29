@@ -12,24 +12,57 @@ const CreditAnalysisDetailSummary = ({userID}) => {
 				<button className='btn text-white bg-primary bg-opacity-50'><BiLineChart /> Riesgos</button>
 			</div>
 		</div>
-		<div className="row border rounded pt-3">
-			<div className="col-sm-4">
-				<p><strong>Identificación</strong>: 2-0339-0246</p>
-				<p><strong>Nombre</strong>: MARCO TULIO ROJAS CASTRO</p>
-				<p><strong>Límite</strong>: 2,520,000.00</p>
-				<p><strong>Disponible</strong>: 0.00</p>
+		<div className='row border rounded pt-3'>
+			<div className='col-sm-4'>
+				<dl className='row'>
+
+					<dt className='col-sm-4 my-2'>Identificación:</dt>
+					<dd className='col-sm-8 my-2 text-end pe-sm-5'>2-0339-0246</dd>
+					
+					<dt className='col-sm-4 my-2'>Nombre:</dt>
+					<dd className='col-sm-8 my-2 text-end pe-sm-5'>MARCO TULIO ROJAS CASTRO</dd>
+					
+					<dt className='col-sm-4 my-2'>Límite:</dt>
+					<dd className='col-sm-8 my-2 text-end pe-sm-5'>2,520,000.00</dd>
+					
+					<dt className='col-sm-4 my-2'>Disponible:</dt>
+					<dd className='col-sm-8 my-2 text-end pe-sm-5'>0.00</dd>
+					
+				</dl>
 			</div>
-			<div className="col-sm-4">
-				<p><strong>Venta</strong>: 405,800.00</p>
-				<p><strong>Prima</strong>: 80,110.00</p>
-				<p><strong>Principal</strong>: 325,690.00</p>
-				<p><strong>Financiamiento</strong>: 186,973.40</p>
+			<div className='col-sm-4'>
+				<dl className='row'>
+
+					<dt className='col-sm-4 my-2'>Venta:</dt>
+					<dd className='col-sm-8 my-2 text-end pe-sm-5'>405,800.00</dd>
+					
+					<dt className='col-sm-4 my-2'>Prima:</dt>
+					<dd className='col-sm-8 my-2 text-end pe-sm-5'>80,110.00</dd>
+					
+					<dt className='col-sm-4 my-2'>Principal:</dt>
+					<dd className='col-sm-8 my-2 text-end pe-sm-5'>325,690.00</dd>
+					
+					<dt className='col-sm-4 my-2'>Financiamiento:</dt>
+					<dd className='col-sm-8 my-2 text-end pe-sm-5'>186,973.40</dd>
+					
+				</dl>
 			</div>
-			<div className="col-sm-4">
-				<p><strong>Primer Cuota</strong>: 21/10/2021</p>
-				<p><strong>Plazo</strong>: 24</p>
-				<p><strong>Cuota</strong>: 21,360.98</p>
-				<p><strong>Garantía M</strong>: 86,967.06</p>
+			<div className='col-sm-4'>
+				<dl className='row'>
+
+					<dt className='col-sm-4 my-2'>Primer Cuota:</dt>
+					<dd className='col-sm-8 my-2 text-end pe-sm-5'>21/10/2021</dd>
+					
+					<dt className='col-sm-4 my-2'>Plazo:</dt>
+					<dd className='col-sm-8 my-2 text-end pe-sm-5'>24</dd>
+					
+					<dt className='col-sm-4 my-2'>Cuota:</dt>
+					<dd className='col-sm-8 my-2 text-end pe-sm-5'>21,360.98</dd>
+					
+					<dt className='col-sm-4 my-2'>Garantía M:</dt>
+					<dd className='col-sm-8 my-2 text-end pe-sm-5'>86,967.06</dd>
+					
+				</dl>
 			</div>
 		</div>
 	</div>
